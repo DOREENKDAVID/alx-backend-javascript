@@ -1,7 +1,6 @@
 const fs = require('fs');
 
-
-/*Reading a file asynchronously with Node JS*/
+/* Reading a file asynchronously with Node JS */
 
 const countStudents = (dataPath) => new Promise((resolve, reject) => {
   fs.readFile(dataPath, 'utf-8', (err, data) => {
